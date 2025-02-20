@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.programming.azhar.gateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-InventoryServiceApplication<inventory-service>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
